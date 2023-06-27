@@ -50,6 +50,8 @@ export async function initCommand(
       () => checkAppId(config, appId),
     ]);
 
+    const androidScheme = config.app.extConfig.server?.androidScheme ?? 'https';
+
     const cordova = await getCordovaPreferences(config);
 
     await runMergeConfig(
@@ -58,7 +60,9 @@ export async function initCommand(
         appId,
         appName,
         webDir,
-        bundledWebRuntime: false,
+        server: {
+          androidScheme: androidScheme,
+        },
         cordova,
       },
       isNewConfig && tsInstalled ? 'ts' : 'json',

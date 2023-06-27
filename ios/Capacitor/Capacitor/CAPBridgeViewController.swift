@@ -44,6 +44,7 @@ import Cordova
         // get the web view
         let assetHandler = WebViewAssetHandler(router: router())
         assetHandler.setAssetPath(configuration.appLocation.path)
+        assetHandler.setServerUrl(configuration.serverURL)
         let delegationHandler = WebViewDelegationHandler()
         prepareWebView(with: configuration, assetHandler: assetHandler, delegationHandler: delegationHandler)
         view = webView
@@ -287,7 +288,6 @@ extension CAPBridgeViewController {
         aWebView.scrollView.bounces = false
         aWebView.scrollView.contentInsetAdjustmentBehavior = configuration.contentInsetAdjustmentBehavior
         aWebView.allowsLinkPreview = configuration.allowLinkPreviews
-        aWebView.configuration.preferences.setValue(true, forKey: "allowFileAccessFromFileURLs")
         aWebView.scrollView.isScrollEnabled = configuration.scrollingEnabled
         if let overrideUserAgent = configuration.overridenUserAgentString {
             aWebView.customUserAgent = overrideUserAgent

@@ -1,4 +1,4 @@
-name: Publish NPM Latest
+name: Publish NPM Latest From Prerelease
 
 on: 
   workflow_call:
@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   deploy-npm-latest:
-    if: github.ref == 'refs/heads/4.x'
+    if: github.ref == 'refs/heads/main'
     runs-on: macos-12
     timeout-minutes: 30
     steps:
@@ -39,4 +39,4 @@ jobs:
           git config user.name "Github Workflow (on behalf of ${{ github.actor }})"
           git config user.email "users.noreply.github.com"
           npm whoami
-          npm run ci:publish:latest
+          npm run ci:publish:latest-from-pre

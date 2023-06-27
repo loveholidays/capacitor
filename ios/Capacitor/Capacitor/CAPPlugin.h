@@ -13,7 +13,7 @@
 @property (nonatomic, strong, nonnull) NSString *pluginId;
 @property (nonatomic, strong, nonnull) NSString *pluginName;
 @property (nonatomic, strong, nullable) NSMutableDictionary<NSString *, NSMutableArray<CAPPluginCall *>*> *eventListeners;
-@property (nonatomic, strong, nullable) NSMutableDictionary<NSString *, id> *retainedEventArguments;
+@property (nonatomic, strong, nullable) NSMutableDictionary<NSString *, NSMutableArray<id> *> *retainedEventArguments;
 @property (nonatomic, assign) BOOL shouldStringifyDatesInCalls;
 
 - (instancetype _Nonnull) initWithBridge:(id<CAPBridgeProtocol> _Nonnull) bridge pluginId:(NSString* _Nonnull) pluginId pluginName:(NSString* _Nonnull) pluginName;

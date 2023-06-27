@@ -3,29 +3,118 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [4.7.1](https://github.com/ionic-team/capacitor/compare/4.7.0...4.7.1) (2023-03-16)
+## [5.0.5](https://github.com/ionic-team/capacitor/compare/5.0.4...5.0.5) (2023-06-09)
 
+**Note:** Version bump only for package @capacitor/cli
 
-### Bug Fixes
-
-* **cli:** point build to proper workspace name ([#6373](https://github.com/ionic-team/capacitor/issues/6373)) ([81af12a](https://github.com/ionic-team/capacitor/commit/81af12a3381c605d4b2a681c69a78dd363a70af0))
-
-
-
-
-
-# [4.7.0](https://github.com/ionic-team/capacitor/compare/4.6.3...4.7.0) (2023-02-22)
-
+## [5.0.4](https://github.com/ionic-team/capacitor/compare/5.0.3...5.0.4) (2023-05-23)
 
 ### Bug Fixes
 
-* **cli:** prevent error on manifest element without children ([#6278](https://github.com/ionic-team/capacitor/issues/6278)) ([a7e374f](https://github.com/ionic-team/capacitor/commit/a7e374fc4d834ded437edb4c8a0be98b6691be4c))
-* **cli:** Remove buildOptions from platform capacitor.config.json ([#6292](https://github.com/ionic-team/capacitor/issues/6292)) ([acddcd9](https://github.com/ionic-team/capacitor/commit/acddcd95b40a7d4cc6c7682d2d1019f96dacf68d))
+- **cli:** correct migration of package from AndroidManifest.xml to build.gradle ([#6607](https://github.com/ionic-team/capacitor/issues/6607)) ([1c26a3e](https://github.com/ionic-team/capacitor/commit/1c26a3e57f356a0972bd43854ca86770a49f2d63))
+- **cli:** Don't succeed migration if npm install failed ([#6595](https://github.com/ionic-team/capacitor/issues/6595)) ([6843d96](https://github.com/ionic-team/capacitor/commit/6843d9642fad9a322579cbe5f01563929a83dbf5))
+- **cli:** proper plugin module patch in monorepos ([#6589](https://github.com/ionic-team/capacitor/issues/6589)) ([d49e632](https://github.com/ionic-team/capacitor/commit/d49e6324ab5e0bea58ff6ca32feb7ea39d33a772))
 
+## [5.0.3](https://github.com/ionic-team/capacitor/compare/5.0.2...5.0.3) (2023-05-10)
+
+**Note:** Version bump only for package @capacitor/cli
+
+## [5.0.2](https://github.com/ionic-team/capacitor/compare/5.0.1...5.0.2) (2023-05-09)
+
+### Bug Fixes
+
+- **cli:** handle unrecognized java --version ([#6577](https://github.com/ionic-team/capacitor/issues/6577)) ([56b0037](https://github.com/ionic-team/capacitor/commit/56b0037a70d64019563b6e55e53de423f471fe2f))
+- **cli:** Move package to build.gradle in Capacitor plugins ([#6569](https://github.com/ionic-team/capacitor/issues/6569)) ([8cb26cd](https://github.com/ionic-team/capacitor/commit/8cb26cd97a4f9cf59abb6b3828a07555a6af0b15))
+- fallback to plain `pod` if `Gemfile` does not contain CocoaPods ([#6581](https://github.com/ionic-team/capacitor/issues/6581)) ([3a41b4c](https://github.com/ionic-team/capacitor/commit/3a41b4c1b70af7a45201fb11b04dc5558893aa7e))
+
+## [5.0.1](https://github.com/ionic-team/capacitor/compare/5.0.0...5.0.1) (2023-05-05)
+
+### Bug Fixes
+
+- **cli:** install minor Capacitor 5 version ([#6562](https://github.com/ionic-team/capacitor/issues/6562)) ([f4af0a2](https://github.com/ionic-team/capacitor/commit/f4af0a298fb5a5f8257f175327058341a230ae4f))
+- **cli:** Update migration link ([#6560](https://github.com/ionic-team/capacitor/issues/6560)) ([e03062e](https://github.com/ionic-team/capacitor/commit/e03062e6025fea0edfabbff2081b3f91017aece4))
+
+# [5.0.0](https://github.com/ionic-team/capacitor/compare/5.0.0-rc.3...5.0.0) (2023-05-03)
+
+**Note:** Version bump only for package @capacitor/cli
+
+# [5.0.0-rc.3](https://github.com/ionic-team/capacitor/compare/5.0.0-rc.2...5.0.0-rc.3) (2023-05-03)
+
+**Note:** Version bump only for package @capacitor/cli
+
+# [5.0.0-rc.2](https://github.com/ionic-team/capacitor/compare/5.0.0-rc.1...5.0.0-rc.2) (2023-05-03)
+
+### Bug Fixes
+
+- check for android and JDK ([#6554](https://github.com/ionic-team/capacitor/issues/6554)) ([ddcc818](https://github.com/ionic-team/capacitor/commit/ddcc818e828b290459d3ddffe9102fc312139823))
+
+# [5.0.0-rc.1](https://github.com/ionic-team/capacitor/compare/5.0.0-rc.0...5.0.0-rc.1) (2023-05-02)
+
+### Bug Fixes
+
+- **cli:** Avoid infinite loop in namespace migration ([#6551](https://github.com/ionic-team/capacitor/issues/6551)) ([d3aacde](https://github.com/ionic-team/capacitor/commit/d3aacdeb0c86d3941464954e7d1f582e405be489))
+- **cli:** Migrate more plugin variables ([#6552](https://github.com/ionic-team/capacitor/issues/6552)) ([b7da5b9](https://github.com/ionic-team/capacitor/commit/b7da5b988ce7da5ea3991eaec46b9e52ff3635f1))
+
+# [5.0.0-rc.0](https://github.com/ionic-team/capacitor/compare/5.0.0-beta.3...5.0.0-rc.0) (2023-05-01)
+
+**Note:** Version bump only for package @capacitor/cli
+
+# [5.0.0-beta.3](https://github.com/ionic-team/capacitor/compare/5.0.0-beta.2...5.0.0-beta.3) (2023-04-21)
 
 ### Features
 
-* **cli:** add ssl pinning copy logic ([#6312](https://github.com/ionic-team/capacitor/issues/6312)) ([cce66c1](https://github.com/ionic-team/capacitor/commit/cce66c1d59370ba35db879f4d7a3620d22175ab0))
+- **cli:** android manifest to build.gradle migration ([#6533](https://github.com/ionic-team/capacitor/issues/6533)) ([245b6ab](https://github.com/ionic-team/capacitor/commit/245b6ab85b0f481f08c21e25f2b2a7eb6da9996c))
+- **cli:** Migrate update to gradle 8 ([#6530](https://github.com/ionic-team/capacitor/issues/6530)) ([da3ac0e](https://github.com/ionic-team/capacitor/commit/da3ac0e72c0559223e9b91f31830810d39638734))
+
+# [5.0.0-beta.2](https://github.com/ionic-team/capacitor/compare/5.0.0-beta.1...5.0.0-beta.2) (2023-04-13)
+
+### Features
+
+- **ios:** Add Bundler support ([#5205](https://github.com/ionic-team/capacitor/issues/5205)) ([f21c6d0](https://github.com/ionic-team/capacitor/commit/f21c6d01fc30e46c151afc93da9727dbf6c9ddcf))
+- **ios:** add webContentsDebuggingEnabled configuration ([#6495](https://github.com/ionic-team/capacitor/issues/6495)) ([c691e4a](https://github.com/ionic-team/capacitor/commit/c691e4aecbfb7a45ce0465d1fe9020ab715815d3))
+
+# [5.0.0-beta.1](https://github.com/ionic-team/capacitor/compare/5.0.0-beta.0...5.0.0-beta.1) (2023-04-03)
+
+### Features
+
+- **cli:** add npm update step to migrate ([#6462](https://github.com/ionic-team/capacitor/issues/6462)) ([65520c3](https://github.com/ionic-team/capacitor/commit/65520c36cdb4ac6f8811eb72624c447f2a0d884a))
+- **cli:** non interactive migrate ([#6461](https://github.com/ionic-team/capacitor/issues/6461)) ([53dfeaf](https://github.com/ionic-team/capacitor/commit/53dfeaf77ace5b165260b68351eae8e5bf72ea0a))
+
+# [5.0.0-beta.0](https://github.com/ionic-team/capacitor/compare/5.0.0-alpha.1...5.0.0-beta.0) (2023-03-31)
+
+### Bug Fixes
+
+- **cli:** Fix cordova plugin config checker over checking 5.x ([#6444](https://github.com/ionic-team/capacitor/issues/6444)) ([9d21a0e](https://github.com/ionic-team/capacitor/commit/9d21a0e363141fa0792c12d977b13692be67cf6d))
+
+### Features
+
+- **android:** Fix for [#6258](https://github.com/ionic-team/capacitor/issues/6258), Add support for modern Huawei devices ([#6402](https://github.com/ionic-team/capacitor/issues/6402)) ([17f2f4a](https://github.com/ionic-team/capacitor/commit/17f2f4ac744a038c1dae3cbd74a670d5ede92ef3))
+- **cli:** Add missing Cap 4 to Cap 5 migration tasks ([#6453](https://github.com/ionic-team/capacitor/issues/6453)) ([7dff363](https://github.com/ionic-team/capacitor/commit/7dff36376d6efa6ea8793b81550979ee9254991b))
+- **cli:** Add support for Android build `--flavor` ([#6437](https://github.com/ionic-team/capacitor/issues/6437)) ([e91a8e7](https://github.com/ionic-team/capacitor/commit/e91a8e795604042684ec9e20b620eee36e0dfda2))
+- **cli:** update migrate command for cap4 -> cap5 ([#6447](https://github.com/ionic-team/capacitor/issues/6447)) ([b1f0a37](https://github.com/ionic-team/capacitor/commit/b1f0a3744d3158dab083ea31ea3e747b937729d2))
+- Upgrade to Typescript 5.x ([#6433](https://github.com/ionic-team/capacitor/issues/6433)) ([88d0ded](https://github.com/ionic-team/capacitor/commit/88d0ded9e7356531ffc4563b9b81a0f3f069484b))
+
+# [5.0.0-alpha.1](https://github.com/ionic-team/capacitor/compare/4.7.0...5.0.0-alpha.1) (2023-03-16)
+
+### Bug Fixes
+
+- **cli:** point build to proper workspace name ([#6371](https://github.com/ionic-team/capacitor/issues/6371)) ([78b7a59](https://github.com/ionic-team/capacitor/commit/78b7a591429b5fc1dc7bf87e06e9a1afd3599408))
+
+### Features
+
+- **cli:** Add --forwardPorts option to Capacitor CLI ([#5645](https://github.com/ionic-team/capacitor/issues/5645)) ([2f04d29](https://github.com/ionic-team/capacitor/commit/2f04d29a17eb46f9bd140b93e821e11380699367))
+- **cli:** update init to set androidScheme to https ([#6342](https://github.com/ionic-team/capacitor/issues/6342)) ([158b27e](https://github.com/ionic-team/capacitor/commit/158b27e53fd803c87de32e8da9f0c5117f81a3a5))
+
+# [4.7.0](https://github.com/ionic-team/capacitor/compare/4.6.3...4.7.0) (2023-02-22)
+
+### Bug Fixes
+
+- **cli:** prevent error on manifest element without children ([#6278](https://github.com/ionic-team/capacitor/issues/6278)) ([a7e374f](https://github.com/ionic-team/capacitor/commit/a7e374fc4d834ded437edb4c8a0be98b6691be4c))
+- **cli:** Remove buildOptions from platform capacitor.config.json ([#6292](https://github.com/ionic-team/capacitor/issues/6292)) ([acddcd9](https://github.com/ionic-team/capacitor/commit/acddcd95b40a7d4cc6c7682d2d1019f96dacf68d))
+
+### Features
+
+- **cli:** add ssl pinning copy logic ([#6312](https://github.com/ionic-team/capacitor/issues/6312)) ([cce66c1](https://github.com/ionic-team/capacitor/commit/cce66c1d59370ba35db879f4d7a3620d22175ab0))
 
 
 

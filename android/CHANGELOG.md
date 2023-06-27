@@ -3,28 +3,110 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [4.7.1](https://github.com/ionic-team/capacitor/compare/4.7.0...4.7.1) (2023-03-16)
-
-**Note:** Version bump only for package @capacitor/android
-
-
-
-
-
-# [4.7.0](https://github.com/ionic-team/capacitor/compare/4.6.3...4.7.0) (2023-02-22)
-
+## [5.0.5](https://github.com/ionic-team/capacitor/compare/5.0.4...5.0.5) (2023-06-09)
 
 ### Bug Fixes
 
-* handle fetch headers that are Headers objects ([#6320](https://github.com/ionic-team/capacitor/issues/6320)) ([cb00e49](https://github.com/ionic-team/capacitor/commit/cb00e4952acca8e877555f30b2190f6685d25934))
-* **ios:** Correctly Attach Headers to Request ([#6303](https://github.com/ionic-team/capacitor/issues/6303)) ([a3f875c](https://github.com/ionic-team/capacitor/commit/a3f875cf42e111fde07d6e87643264b19ed77573))
+- **http:** don't throw errors when content-type is null on response ([#6627](https://github.com/ionic-team/capacitor/issues/6627)) ([538821f](https://github.com/ionic-team/capacitor/commit/538821f267aa3b79548fed6aaea8880ff949ffdd))
 
+## [5.0.4](https://github.com/ionic-team/capacitor/compare/5.0.3...5.0.4) (2023-05-23)
+
+**Note:** Version bump only for package @capacitor/android
+
+## [5.0.3](https://github.com/ionic-team/capacitor/compare/5.0.2...5.0.3) (2023-05-10)
+
+**Note:** Version bump only for package @capacitor/android
+
+## [5.0.2](https://github.com/ionic-team/capacitor/compare/5.0.1...5.0.2) (2023-05-09)
+
+**Note:** Version bump only for package @capacitor/android
+
+## [5.0.1](https://github.com/ionic-team/capacitor/compare/5.0.0...5.0.1) (2023-05-05)
+
+**Note:** Version bump only for package @capacitor/android
+
+# [5.0.0](https://github.com/ionic-team/capacitor/compare/5.0.0-rc.3...5.0.0) (2023-05-03)
+
+**Note:** Version bump only for package @capacitor/android
+
+# [5.0.0-rc.3](https://github.com/ionic-team/capacitor/compare/5.0.0-rc.2...5.0.0-rc.3) (2023-05-03)
+
+**Note:** Version bump only for package @capacitor/android
+
+# [5.0.0-rc.2](https://github.com/ionic-team/capacitor/compare/5.0.0-rc.1...5.0.0-rc.2) (2023-05-03)
+
+**Note:** Version bump only for package @capacitor/android
+
+# [5.0.0-rc.1](https://github.com/ionic-team/capacitor/compare/5.0.0-rc.0...5.0.0-rc.1) (2023-05-02)
+
+**Note:** Version bump only for package @capacitor/android
+
+# [5.0.0-rc.0](https://github.com/ionic-team/capacitor/compare/5.0.0-beta.3...5.0.0-rc.0) (2023-05-01)
+
+**Note:** Version bump only for package @capacitor/android
+
+# [5.0.0-beta.3](https://github.com/ionic-team/capacitor/compare/5.0.0-beta.2...5.0.0-beta.3) (2023-04-21)
+
+### Bug Fixes
+
+- **cookies:** init cookie manager after server url is set ([0ee772f](https://github.com/ionic-team/capacitor/commit/0ee772ff6456ad0948a0dd025dfcf2658a5563a0))
 
 ### Features
 
-* **android:** add ability to create config from a custom file path ([#6264](https://github.com/ionic-team/capacitor/issues/6264)) ([42b4f0f](https://github.com/ionic-team/capacitor/commit/42b4f0f416c8038ae368860007910bb09c8ec84e))
-* **android:** Add SSL Pinning logic ([#6314](https://github.com/ionic-team/capacitor/issues/6314)) ([07f113e](https://github.com/ionic-team/capacitor/commit/07f113e6933e15c45d772f69f7128cbb3706f7b9))
-* **android:** enable loading of assets outside of the content web asset directory ([#6301](https://github.com/ionic-team/capacitor/issues/6301)) ([364497d](https://github.com/ionic-team/capacitor/commit/364497d4aca93fc716a0673ef9103479aed791ec))
+- **android:** update gradle to 8.0.2 and gradle plugin to 8.0.0 ([#6497](https://github.com/ionic-team/capacitor/issues/6497)) ([01b5b39](https://github.com/ionic-team/capacitor/commit/01b5b399324ae5d0896989478a6910fb946542d7))
+
+# [5.0.0-beta.2](https://github.com/ionic-team/capacitor/compare/5.0.0-beta.1...5.0.0-beta.2) (2023-04-13)
+
+### Bug Fixes
+
+- **android:** launching intents without host ([#6489](https://github.com/ionic-team/capacitor/issues/6489)) ([95f7474](https://github.com/ionic-team/capacitor/commit/95f747401ac5a666de4338a18666060e9c1ff39e))
+- **android:** unify kotlin dependency version ([#6501](https://github.com/ionic-team/capacitor/issues/6501)) ([0a40477](https://github.com/ionic-team/capacitor/commit/0a4047768cbde9bc17d92955e64ab11d2e3b3335))
+- **cookies:** check isEnabled before setting cookieHandler ([bb04f24](https://github.com/ionic-team/capacitor/commit/bb04f24f0b4a99e46ed5ca047d3d3df81804d516))
+- **ios/android:** copy url from nativeResponse to response ([#6482](https://github.com/ionic-team/capacitor/issues/6482)) ([828fb71](https://github.com/ionic-team/capacitor/commit/828fb71ebb52c0655d5879ad0edaac7368ab2b96))
+- remove accept-charset ([#6386](https://github.com/ionic-team/capacitor/issues/6386)) ([bbf6f7e](https://github.com/ionic-team/capacitor/commit/bbf6f7e1af0c49c0bc917942b6715c613be3f557))
+
+# [5.0.0-beta.1](https://github.com/ionic-team/capacitor/compare/5.0.0-beta.0...5.0.0-beta.1) (2023-04-03)
+
+**Note:** Version bump only for package @capacitor/android
+
+# [5.0.0-beta.0](https://github.com/ionic-team/capacitor/compare/5.0.0-alpha.1...5.0.0-beta.0) (2023-03-31)
+
+### Bug Fixes
+
+- 204 http response ([#6266](https://github.com/ionic-team/capacitor/issues/6266)) ([771f6ce](https://github.com/ionic-team/capacitor/commit/771f6ce1f35159848db218a42dc4f56b5106f750))
+- **android:** Allow WebView to load data urls ([#6418](https://github.com/ionic-team/capacitor/issues/6418)) ([daf2ec6](https://github.com/ionic-team/capacitor/commit/daf2ec64df0c567c6a42560488e5d2515eff8a33))
+- **android:** proper app url check for launching intents ([#6450](https://github.com/ionic-team/capacitor/issues/6450)) ([302ba35](https://github.com/ionic-team/capacitor/commit/302ba353acbd6d67e96e2b28870bc9c5bb4e9af0))
+- **android:** remove stored references to bridge that holds it in memory ([#6448](https://github.com/ionic-team/capacitor/issues/6448)) ([4737d2b](https://github.com/ionic-team/capacitor/commit/4737d2b46b480c7c0246ac6414494cbbdac7811b))
+
+### Features
+
+- **android:** Fix for [#6258](https://github.com/ionic-team/capacitor/issues/6258), Add support for modern Huawei devices ([#6402](https://github.com/ionic-team/capacitor/issues/6402)) ([17f2f4a](https://github.com/ionic-team/capacitor/commit/17f2f4ac744a038c1dae3cbd74a670d5ede92ef3))
+- retain multiple calls per event until consumed ([#6419](https://github.com/ionic-team/capacitor/issues/6419)) ([5aba2cb](https://github.com/ionic-team/capacitor/commit/5aba2cbe29bdbab2a7af861c65d8323acf9c54a6))
+
+# [5.0.0-alpha.1](https://github.com/ionic-team/capacitor/compare/4.7.0...5.0.0-alpha.1) (2023-03-16)
+
+### Bug Fixes
+
+- **android:** handle empty permission list ([#6375](https://github.com/ionic-team/capacitor/issues/6375)) ([b11a9df](https://github.com/ionic-team/capacitor/commit/b11a9df070f18a25364a9109e295556fc75ea7f9))
+- **android:** handle null http headers and params ([#6370](https://github.com/ionic-team/capacitor/issues/6370)) ([e486672](https://github.com/ionic-team/capacitor/commit/e486672731818d5c64c50956562aa4766f169d41))
+- **android:** solve and/or silence lint errors ([#6358](https://github.com/ionic-team/capacitor/issues/6358)) ([c627415](https://github.com/ionic-team/capacitor/commit/c627415743bec92dcb65ab8b8840003d8c0a5286))
+
+### Features
+
+- **android:** Removing enableJetifier ([#6333](https://github.com/ionic-team/capacitor/issues/6333)) ([fc0b403](https://github.com/ionic-team/capacitor/commit/fc0b403265f63eab35cdb2f262fb1e047db4b6bd))
+
+# [4.7.0](https://github.com/ionic-team/capacitor/compare/4.6.3...4.7.0) (2023-02-22)
+
+### Bug Fixes
+
+- handle fetch headers that are Headers objects ([#6320](https://github.com/ionic-team/capacitor/issues/6320)) ([cb00e49](https://github.com/ionic-team/capacitor/commit/cb00e4952acca8e877555f30b2190f6685d25934))
+- **ios:** Correctly Attach Headers to Request ([#6303](https://github.com/ionic-team/capacitor/issues/6303)) ([a3f875c](https://github.com/ionic-team/capacitor/commit/a3f875cf42e111fde07d6e87643264b19ed77573))
+
+### Features
+
+- **android:** add ability to create config from a custom file path ([#6264](https://github.com/ionic-team/capacitor/issues/6264)) ([42b4f0f](https://github.com/ionic-team/capacitor/commit/42b4f0f416c8038ae368860007910bb09c8ec84e))
+- **android:** Add SSL Pinning logic ([#6314](https://github.com/ionic-team/capacitor/issues/6314)) ([07f113e](https://github.com/ionic-team/capacitor/commit/07f113e6933e15c45d772f69f7128cbb3706f7b9))
+- **android:** enable loading of assets outside of the content web asset directory ([#6301](https://github.com/ionic-team/capacitor/issues/6301)) ([364497d](https://github.com/ionic-team/capacitor/commit/364497d4aca93fc716a0673ef9103479aed791ec))
 
 
 

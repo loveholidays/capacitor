@@ -14,6 +14,9 @@ extension CAPPlugin {
         pluginName = bridgedType.jsName()
         shouldStringifyDatesInCalls = true
         retainedEventArguments = [:]
+        eventListeners = [:]
+        pluginId = identifier
+        pluginName = jsName
         load()
     }
 }
