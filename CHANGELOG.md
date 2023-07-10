@@ -3,6 +3,62 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.8.1](https://github.com/ionic-team/capacitor/compare/4.8.0...4.8.1) (2023-06-29)
+
+
+### Bug Fixes
+
+* **android:** Move bridge localUrl initialization to initWebView ([#6686](https://github.com/ionic-team/capacitor/issues/6686)) ([85fd4a6](https://github.com/ionic-team/capacitor/commit/85fd4a61a7ab90cfb1492c19b0d77c185798de68))
+* **android:** revert cookie manager initialization to plugin load for 4.x  ([2ea82f4](https://github.com/ionic-team/capacitor/commit/2ea82f437020ecd74d6124f5123816383332d87a))
+
+
+
+
+
+# [4.8.0](https://github.com/ionic-team/capacitor/compare/4.7.3...4.8.0) (2023-04-26)
+
+
+### Bug Fixes
+
+* **android:** launching intents without host  ([#6493](https://github.com/ionic-team/capacitor/issues/6493)) ([6028ff4](https://github.com/ionic-team/capacitor/commit/6028ff482b489c150e348a3b536387c321b39b80))
+* **cli:** Pin [@ionic](https://github.com/ionic) dependencies for node 12 support ([#6527](https://github.com/ionic-team/capacitor/issues/6527)) ([dd2d617](https://github.com/ionic-team/capacitor/commit/dd2d6172e174963114d119b55cb0b0e43faf8b63))
+* **cli:** Pin @ionic/utils-subprocess version for node 12 support ([#6524](https://github.com/ionic-team/capacitor/issues/6524)) ([c714408](https://github.com/ionic-team/capacitor/commit/c7144081532c486ef2d5fa42881ae2421b81e3eb))
+* **cookies:** check isEnabled before setting cookieHandler ([24a28cb](https://github.com/ionic-team/capacitor/commit/24a28cb0a391dcd7f305000c4973b4c2c9a79359))
+* **cookies:** init cookie manager after server url is set ([4000b02](https://github.com/ionic-team/capacitor/commit/4000b0259223fcd505bbd5393e2458f0abd3b156))
+* **http:** copy native response url to fetch response ([42d2eb3](https://github.com/ionic-team/capacitor/commit/42d2eb3c3c04e087b88df7252cd2c323b00a3f95))
+
+
+### Features
+
+* **ios:** add webContentsDebuggingEnabled configuration ([#6500](https://github.com/ionic-team/capacitor/issues/6500)) ([b9e345a](https://github.com/ionic-team/capacitor/commit/b9e345a8f02229650eabc829d49c9d9e7227eb57))
+
+
+
+
+
+## [4.7.3](https://github.com/ionic-team/capacitor/compare/4.7.2...4.7.3) (2023-03-31)
+
+
+### Bug Fixes
+
+* **android:** remove stored references to bridge that holds it in memory ([#6448](https://github.com/ionic-team/capacitor/issues/6448)) ([#6455](https://github.com/ionic-team/capacitor/issues/6455)) ([8fa2d1c](https://github.com/ionic-team/capacitor/commit/8fa2d1c560321d9eb91edb1c81bf64f802289604))
+
+
+
+
+
+## [4.7.2](https://github.com/ionic-team/capacitor/compare/4.7.1...4.7.2) (2023-03-31)
+
+
+### Bug Fixes
+
+* **android:** proper app url check for launching intents ([#6451](https://github.com/ionic-team/capacitor/issues/6451)) ([6f8d1ad](https://github.com/ionic-team/capacitor/commit/6f8d1adb6514fe3cd64674215d87ae55d5f12f35))
+* **cli:** Fix cordova plugin config checker over checking on 4.x ([#6443](https://github.com/ionic-team/capacitor/issues/6443)) ([5ce68bb](https://github.com/ionic-team/capacitor/commit/5ce68bbb290f63ca1d15a9f87e0c2254896e0bfe))
+
+
+
+
+
 ## [4.7.1](https://github.com/ionic-team/capacitor/compare/4.7.0...4.7.1) (2023-03-16)
 
 

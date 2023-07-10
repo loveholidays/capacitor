@@ -1,6 +1,6 @@
 {
   "name": "@capacitor/cli",
-  "version": "4.7.1",
+  "version": "4.8.1",
   "description": "Capacitor: Cross-platform apps with JavaScript and the web",
   "homepage": "https://capacitorjs.com",
   "author": "Ionic Team <hi@ionic.io> (https://ionic.io)",
@@ -44,10 +44,10 @@
     "watch": "npm run assets && tsc -w"
   },
   "dependencies": {
-    "@ionic/cli-framework-output": "^2.2.5",
-    "@ionic/utils-fs": "^3.1.6",
-    "@ionic/utils-subprocess": "^2.1.11",
-    "@ionic/utils-terminal": "^2.3.3",
+    "@ionic/cli-framework-output": "2.2.5",
+    "@ionic/utils-fs": "3.1.6",
+    "@ionic/utils-subprocess": "2.1.11",
+    "@ionic/utils-terminal": "2.3.3",
     "commander": "^9.3.0",
     "debug": "^4.3.4",
     "env-paths": "^2.2.0",
@@ -60,9 +60,10 @@
     "semver": "^7.3.7",
     "tar": "^6.1.11",
     "tslib": "^2.4.0",
-    "xml2js": "^0.4.23"
+    "xml2js": "^0.5.0"
   },
   "devDependencies": {
+    "@types/babel__traverse": "7.17.1",
     "@types/debug": "^4.1.7",
     "@types/jest": "^26.0.4",
     "@types/node": "18.11.18",
